@@ -1,0 +1,37 @@
+* {
+    margin: 10;
+    padding: 10;
+}
+    body {
+    background-color: white;
+}
+table {
+    border-collapse: collapse;
+}
+table, td, th {
+    border: solid 1px #cccccc;
+}
+tr {
+    text-align: center;
+}
+td, th {
+    padding: 5px;
+}
+.train {
+    background-color: #fbdbf2;
+    color: #f1477b;
+    text-decoration: underline;
+}
+#table_title {
+    height: 30px;
+    background-color: #eeeeee;
+}
+#col1, #col4 {
+    width: 90px;
+}
+#col2, #col3 {
+    width: 60px;
+}
+#col5, #col6 {
+    width: 80px;
+}
