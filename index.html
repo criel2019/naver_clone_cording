@@ -18,11 +18,11 @@
 <fieldset style="user-select: auto;">
 <legend class="blind" style="user-select: auto;">검색</legend>
 
-<div class="green_window" style="user-select: auto;">
+<div class="green_window atcp_open" style="border-color: rgb(134, 188, 92); user-select: auto;">
 <!-- [AU] data-atcmp-element 에 해당하는 attribute를 추가해주세요. -->
 <input id="query" name="query" type="text" title="검색어 입력" maxlength="255" class="input" tabindex="1" accesskey="s" style="user-select: auto;" autocomplete="off" placeholder="검색어를 입력해 주세요." onclick="document.getElementById('fbm').value=1;" value="" data-atcmp-element="">
 </div>
-<button id="search_btn" type="submit" title="검색" tabindex="3" class="btn_submit" onclick="window.nclick(this,'sch.action','','',event);" style="user-select: auto;">
+<button id="search_btn" type="submit" title="검색" tabindex="3" class="btn_submit" onclick="window.nclick(this,'sch.action','','',event);" style="background-color: rgb(134, 188, 92); user-select: auto;">
 <span class="blind" style="user-select: auto;">검색</span>
 <span class="ico_search_submit" style="user-select: auto;"></span>
 </button>
@@ -104,15 +104,15 @@ class="list_nav NM_FAVORITE_LIST"
 </div>
 <div class="views" style="user-select: auto; float: left; ">
 <a  class="views_list"href="http://daum.net" >
-  <img src="./assets/images/baseline_view_list_black_18dp.png"
+  <img src="C:\Users\User\Documents\GitHub\EX\assets\images\baseline_view_list_black_18dp.png"
    width="20px" height="20px" alt="list_view" border="0">
 </a>
 <a href="http://daum.net" style="  padding-left: 5px;">
-  <img src="./assets/images/baseline_view_carousel_black_18dp.png"
+  <img src="C:\Users\User\Documents\GitHub\EX\assets\images\baseline_view_carousel_black_18dp.png"
    width="20px" height="20px" alt="list_view" border="0">
 </a>
 <a href="http://daum.net" style="  padding-left: 5px;">
-  <img src="./assets/images/baseline_settings_black_18dp.png"
+  <img src="C:\Users\User\Documents\GitHub\EX\assets\images\baseline_settings_black_18dp.png"
    width="20px" height="20px" alt="list_view" border="0">
 </a>
 </div>
@@ -275,6 +275,16 @@ class="list_nav NM_FAVORITE_LIST"
 
           </div>
 </div>
+<div class="readings group">
+<span  style="position: relative; top: 70px; left: 5px; color: black; font-family: 'Malgun-Gothic'; font-weight: 700; font-size: 14px;">오늘의 읽을거리 </span>
+<span  style="position: relative; top: 70px; left: 15px; color: black; font-family: 'Malgun-Gothic';  font-size: 12px;">주제별로 분류된 다양한 글 모음 </span>
+<span  class="interestings_settings" style="position: relative; top: 70px; left: 250px;color: black; font-family: 'Malgun-Gothic';  font-size: 14px;">1367개의 글</span>
+<a href="http://daum.net" style=" position: relative; left:260px; top: 68px;">
+  <img src="./assets/images/baseline_settings_black_18dp.png"
+   width="20px" height="20px" alt="list_view" border="0">
+</a>
+<span style="position: relative; top: 70px; left: 260px;color: black; font-family: 'Malgun-Gothic';  font-size: 14px;">관심주제 설정</span>
+</div>
 </div>
 <div id="right_body" style="user-select: auto; width: 350px; float: left;">
   <div class="right_body_fixed">
@@ -322,7 +332,15 @@ class="list_nav NM_FAVORITE_LIST"
 </div>
 </div>
 <style>
-
+.interestings_settings:after{
+        background-color:#d7dce0;
+        display:inline-block;
+        width:1px;
+        height:15px;
+        margin-left: 15px;
+        vertical-align:top;
+        content:'';
+      }
 video {
   position: relative;
   top: 25px;
