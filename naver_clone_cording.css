@@ -1,3 +1,14 @@
+.shopping_group{
+  position: relative;
+  top: 50px;
+  left: 35px;
+
+}
+.shopping_sector{
+  width: 350px;
+  height: 1560px;
+}
+
 .something_to_read_stand{
   position: relative;
   top: 68px;
