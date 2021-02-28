@@ -1,3 +1,132 @@
+.something_to_read_stand{
+  position: relative;
+  top: 68px;
+  float:left;
+  width: 93.75px;
+  height: 50px;
+  text-align: center;
+}
+.nineth_something_to_read_row{
+  display: block;
+     width:1px;
+     height: 50px;
+     background-color:#DAE1E6;
+     position:absolute;
+     top:50px;
+     bottom:0;
+     left:750px;
+}
+.eighth_something_to_read_row{
+  display: block;
+     width:1px;
+     height: 50px;
+     background-color:#DAE1E6;
+     position:absolute;
+     top:50px;
+     bottom:0;
+     left:656.25px;
+}
+.seventh_something_to_read_row{
+  display: block;
+     width:1px;
+     height: 50px;
+     background-color:#DAE1E6;
+     position:absolute;
+     top:50px;
+     bottom:0;
+     left:562.5px;
+}
+.sixth_something_to_read_row{
+  display: block;
+     width:1px;
+     height: 50px;
+     background-color:#DAE1E6;
+     position:absolute;
+     top:50px;
+     bottom:0;
+     left:468.75px;
+}
+.fifth_something_to_read_row{
+  display: block;
+     width:1px;
+     height: 50px;
+     background-color:#DAE1E6;
+     position:absolute;
+     top:50px;
+     bottom:0;
+     left:375px;
+}
+
+.fourth_something_to_read_row{
+  display: block;
+     width:1px;
+     height: 50px;
+     background-color:#DAE1E6;
+     position:absolute;
+     top:50px;
+     bottom:0;
+     left:281.25px;
+}
+
+.third_something_to_read_row{
+  display: block;
+     width:1px;
+     height: 50px;
+     background-color:#DAE1E6;
+     position:absolute;
+     top:50px;
+     bottom:0;
+     left:187.5px;
+}
+.second_something_to_read_row{
+  display: block;
+     width:1px;
+     height: 50px;
+     background-color:#DAE1E6;
+     position:absolute;
+     top:50px;
+     bottom:0;
+     left:93.75px;
+}
+
+.first_something_to_read_row{
+  display: block;
+     width:1px;
+     height: 50px;
+     background-color:#DAE1E6;
+     position:absolute;
+     top:50px;
+     bottom:0;
+     left:0px;
+}
+
+.second_something_to_read_column{
+  display: block;
+     height:1px;
+     background-color:#DAE1E6;
+     position:absolute;
+     top:100px;
+     left:0px;
+     right:0px;
+
+
+}
+.first_something_to_read_column{
+  display: block;
+     height:1px;
+     background-color:#DAE1E6;
+     position:absolute;
+     top:50px;
+     left:0px;
+     right:0px;
+}
+.something_to_read_procession{
+  position: relative;
+  top: 50px;
+  width: 750px;
+  height: 200px;
+}
+
 .interestings_settings:after{
         background-color:#d7dce0;
         display:inline-block;
