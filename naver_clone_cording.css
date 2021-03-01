@@ -101,6 +101,9 @@ text-align: center;
 }
 
 .shopping_box {
+  position: relative;
+  top: -1px;
+  left: -1px;
   width: 350px;
   height: 65px;
   background-color: #f7f9fa;
