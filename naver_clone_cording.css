@@ -1,3 +1,14 @@
+.goods{
+  margin-left: 10px;
+width: 100px;
+height: 200px;
+text-align: center;
+}
+.goods_group{
+  position: relative;
+  width: 350px;
+  height: 1100px;
+}
 .right_arr {
   content: '';
   width: 5px;
@@ -102,7 +113,7 @@
   position: absolute;
   margin: 80px 0 0 25px;
   width: 350px;
-  height: 1150px;
+  height: 1100px;
   border: 1px solid #dae1e6;
   line-height: 24px;
   font-weight: 700;
