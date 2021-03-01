@@ -79,7 +79,7 @@ text-align: center;
   border-radius: 50%;
   vertical-align: top;
   content: '';
-  margin: 0 6px 0 1px;
+  margin: 0 5px 0 0px;
   vertical-align: 3px;
 }
 
@@ -92,7 +92,7 @@ text-align: center;
   border-radius: 50%;
   vertical-align: top;
   content: '';
-  margin: 0 10px 0 5px;
+  margin: 0 9px 0 4px;
   vertical-align: 3px;
 }
 
