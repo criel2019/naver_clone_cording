@@ -1,3 +1,13 @@
+.small_image_article{
+width: 400px;
+height: 100px;
+}
+.small_image_articles{
+  float: left;
+  margin-left: 20px;
+  width: 350px;
+  height: 800px;
+}
 .goods{
   margin-left: 10px;
 width: 100px;
@@ -153,13 +163,41 @@ display: inline;
 
 .something_to_read_stand {
   position: relative;
-  top: 68px;
+  top: 50px;
   float: left;
   width: 93.75px;
   height: 50px;
   text-align: center;
+  list-style-type: none;
+}
+.something_to_read_stand_button:link{
+			text-align: center;
+      vertical-align: center;
+			text-decoration: none;
+			display: inline-block;
+      list-style-type: none;
+}
+.something_to_read_stand_button span:link{
+		color: #000;
 }
 
+.something_to_read_stand:hover{
+      background-color: #2ecc71;
+      text-align: center;
+      vertical-align: center;
+			text-decoration: none;
+			display: inline-block;
+      list-style-type: none;
+      color: #fff;
+}
+.something_to_read_stand:active{
+      background-color: #f1c40f;
+      text-align: center;
+      vertical-align: center;
+			text-decoration: none;
+			display: inline-block;
+      list-style-type: none;
+}
 .nineth_something_to_read_row {
   display: block;
   width: 1px;
