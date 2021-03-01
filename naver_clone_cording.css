@@ -70,6 +70,9 @@ text-align: center;
   height: 50px;
 }
 
+.shopping_malls_group_last{
+  display: inline;
+}
 .shopping_malls_group_second:after {
   background-color: #d7dce0;
   display: inline-block;
@@ -79,7 +82,7 @@ text-align: center;
   border-radius: 50%;
   vertical-align: top;
   content: '';
-  margin: 0 4px 0 -1px;
+  margin: 0 5px 0 5px;
   vertical-align: 3px;
 }
 
@@ -92,8 +95,17 @@ text-align: center;
   border-radius: 50%;
   vertical-align: top;
   content: '';
-  margin: 0 8px 0 3px;
+  margin: 0 8px 0 8px;
   vertical-align: 3px;
+}
+.shopping_malls_group_second {
+display: inline;
+
+}
+
+.shopping_malls_group_first {
+  display: inline;
+
 }
 
 
@@ -102,7 +114,8 @@ text-align: center;
 }
 
 .embrace{
-  display: block;
+  font-size:0;
+  width: 350px;
 }
 .shopping_box {
   position: relative;
