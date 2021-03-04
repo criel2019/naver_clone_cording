@@ -426,13 +426,12 @@
   content: '';
 }
 
-video {
+.video_player {
   position: relative;
   top: 25px;
   left: 25px;
   width: 350px;
   height: 200px;
-  display: block;
   margin: 20px auto;
 }
 
@@ -444,7 +443,12 @@ video {
   height: 65px;
   text-align: center;
 }
-
+.news_stand_icon{
+  width: 18px;
+  height: 18px;
+  margin-top: -1px;
+  float: left;
+}
 .news_stand_procession {
   width: 750px;
   height: 260px;
@@ -542,6 +546,10 @@ video {
   padding-left: 80px;
 }
 
+
+.views a{
+  text-decoration:none
+}
 .views {
   position: relative;
   top: 48px;
@@ -654,7 +662,16 @@ video {
   margin: 0 5px 0 5px;
   vertical-align: 3px;
 }
-
+.id_and_pwd_search{
+width: 250px;
+height: 20px;
+margin-top: 10px;
+}
+.id_and_pwd_search a{
+color:#404040;
+font-family:'Malgun Gothic';
+font-size: 12px;
+}
 .login {
   display: inline-block;
   /* default값 inline */
@@ -671,6 +688,16 @@ video {
   text-align: center;
 }
 
+.lock_icon{
+ display: inline;
+  width: 18px;
+  height: 18px;
+}
+.lockbox{
+  width: 312px;
+  height: 20px;
+  margin-top: 15px;
+}
 .loginbox {
   position: relative;
   /* posution값 relative */
